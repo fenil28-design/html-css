@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Journey</title>
+    
+</head>
+<style>
+    body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #f3ec78, #af4261);
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    color: white;
+    animation: slideIn 2s ease-out;
+}
+
+.message h1 {
+    font-size: 3rem;
+    margin: 0;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.message p {
+    font-size: 1.5rem;
+    margin: 10px 0 0;
+    animation: fadeIn 2s ease-in-out 1s;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+</style>
+<body>
+    <div class="container">
+        <div class="message">
+            <h1>Happy Journey Dear Twara!</h1>
+            <p>Wishing you a safe and wonderful trip.</p>
+        </div>
+    </div>0
+</body>
+</html>
